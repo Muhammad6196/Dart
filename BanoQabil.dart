@@ -46,12 +46,14 @@ void main() {
   }
   print("The answer of $l ^ $x is: $n");
 
+  //Convert Celsius into Fahrenheit
   double celsius, Farh;
   print("Enter Temperature in Celsius: ");
   celsius = double.parse(stdin.readLineSync()!);
   Farh = (9 / 5) * celsius + 32;
   print("The conversion of Celsius to Fahrenheit is: $Farh");
 
+  //Identify Prime Numbers
   int num;
   bool prime = true;
   print("Enter a Positive Integer: ");
