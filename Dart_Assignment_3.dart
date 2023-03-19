@@ -14,7 +14,7 @@ class Car extends Vehicle {
   int numDoors = 0;
   Car(String brand, String model, String year, this.numDoors) : super(brand, model, year);
   void drive() {
-    print("The $year $brand $model with $numDoors doors is being driven.");
+    print("The $year $brand $model with $numDoors doors was a classic Car.");
   }
 }
 
